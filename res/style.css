@@ -1,0 +1,37 @@
+body {
+    background-image: url("./images/header.jpeg");
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: steelblue;
+}
+
+#profileImage {
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+
+#profile {
+    font-size: 30px;
+}
+
+section {
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div p {
+    text-transform: uppercase;
+    color: steelblue;
+}
