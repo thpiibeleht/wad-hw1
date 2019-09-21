@@ -1,5 +1,8 @@
 body {
-    background-image: url("./images/header.jpeg");
+    background-image: linear-gradient(to left,
+        rgb(235, 235, 235, 0.3), 
+        rgb(235, 235, 235)
+      ), url("./images/header.jpeg");
     font-family: "Lato", sans-serif;
 }
 
@@ -9,6 +12,7 @@ header {
     font-weight: 700;
     font-size: 50px;
     color: steelblue;
+    text-shadow: 1px 1px 1px black;
 }
 
 #profileImage {
@@ -31,7 +35,20 @@ img {
     max-height: 100%;
 }
 
-div p {
+div h2 {
     text-transform: uppercase;
     color: steelblue;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+.maintable th {
+    color: steelblue;
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+}
+.maintable {
+    border-spacing: 20px;
+}
+.maintable tr {
+    text-align: right;
 }
