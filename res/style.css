@@ -35,7 +35,7 @@ img {
     max-height: 100%;
 }
 
-div h2 {
+div > h2 {
     text-transform: uppercase;
     color: steelblue;
     font-size: 30px;
@@ -51,4 +51,7 @@ div h2 {
 }
 .maintable tr {
     text-align: right;
+}
+a:hover {
+    color: steelblue;
 }
